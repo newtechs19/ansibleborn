@@ -13,4 +13,5 @@
       notify:
         - restart apache2
 
-
+    - name: clone my ansible born
+      git: repo=https://github.com/newtechs19/ansibleborn.git dest=/var/www/html/myansible update=no
