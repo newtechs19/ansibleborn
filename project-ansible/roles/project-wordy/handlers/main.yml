@@ -1,0 +1,4 @@
+---
+# handlers file for project-wordy
+- name: restart apache
+  service: name=apache2 state=restarted

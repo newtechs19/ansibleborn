@@ -1,0 +1,7 @@
+---
+
+- host: webserver
+
+ roles: 
+   - {role: install_tomcat} 
+   - {role: start_tomcat} 
